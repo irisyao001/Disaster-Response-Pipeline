@@ -4,17 +4,17 @@ This portfolio project's purpose is to apply data engineering to classify disast
 ## Installation
 I use python 3.5 to create this project and the main libraries I used are:
 
-sikit-learn
-nltk
-Flask
-gunicorn
-numpy
-pandas
-plotly
-sqlalchemy
-jsonschema
-punkt
-wordnet
+sikit-learn, 
+nltk, 
+Flask, 
+gunicorn, 
+numpy, 
+pandas, 
+plotly, 
+sqlalchemy, 
+jsonschema, 
+punkt, 
+wordnet, 
 stopwords
 
 ## File Descriptions
@@ -33,6 +33,10 @@ stopwords
   process_data.py: reads in the data, cleans and stores it in a SQL database.
 ### models
   train_classifier.py: created database from transformed and cleaned data.
+  
+## Results
+frontpage of result
+![result1](result1.PNG)
 
 ## Instructions
 Run the following commands in the project's root directory to set up your database and model.
